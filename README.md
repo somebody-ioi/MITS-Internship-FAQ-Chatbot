@@ -54,6 +54,6 @@ It's part of the **Medium-Level Internship Project** for MITS.
 
 ## 👤 Author
 
-Cristein Roger  
+Raj Dubey
 MITS Internship – Medium Level Project  
 Domain: Artificial Intelligence + Gradio UI  
