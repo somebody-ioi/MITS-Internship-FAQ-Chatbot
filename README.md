@@ -1,55 +1,94 @@
-# 🤖 MITS AI-Powered FAQ + Career Chatbot
+# 🤖 MITS Virtual Internship AI Assistant
 
-This is a smart, AI-driven chatbot built for the **MITS Medium-Level Internship Project**.  
-It uses real **Natural Language Processing (NLP)** to understand and respond to questions about:
+An AI-powered tool designed to help students during their internship journey with **MITS Virtual Internship Program**.  
+This project combines two key components into one seamless system:
 
-- 📚 Internships
-- 📂 Project submission
-- 🎓 Certificates
-- 🧭 Career guidance
-
-Built with Python and Gradio, this chatbot goes beyond simple Q&A — it uses **TF-IDF vectorization** and **cosine similarity** to match user input with relevant answers, even if the question isn't typed exactly.
+1. **📘 Internship FAQ Chatbot** – Answers common questions related to internships, submissions, certificates, and career doubts using NLP.
+2. **🎯 Domain Recommender** – Suggests the best-fit internship domain based on the student's interests, skills, and experience.
 
 ---
 
-## 🚀 Features
+## 🎯 Purpose
 
-- 🧠 **TF-IDF + Cosine Similarity** for NLP-based matching  
-- 🗂️ Handles both internship-related and career-oriented questions  
-- 💬 Clean, responsive **Gradio chat UI**  
-- 📱 Works on mobile & desktop (Colab-deployable)  
-- 🔁 Easily expandable with more FAQs
-
----
-
+This project is built to:
+- Support students during their MITS internship experience
+- Provide 24/7 instant answers to common doubts
+- Guide students toward relevant technical domains
+- Recommend **MITS Internship** itself for beginners to gain practical exposure
 
 ---
 
 ## 🧠 Technologies Used
 
-- **Python 3**
-- **Gradio** (for chat interface)
-- **Scikit-learn** (TF-IDF vectorizer & cosine similarity)
-
-
----
-
-## 🧩 How It Works
-
-1. The bot stores a list of predefined FAQ questions and answers.
-2. It converts all known questions into **TF-IDF vectors**.
-3. When a user types a question, it also gets vectorized and compared.
-4. The most similar question is found using **cosine similarity**.
-5. If the similarity score is above the confidence threshold, it responds.
-6. If not — a fallback "Sorry bro" message is shown.
+| Tool / Library        | Purpose                             |
+|-----------------------|-------------------------------------|
+| Python 3              | Core programming language           |
+| Gradio                | UI framework for chatbot & forms    |
+| Scikit-learn          | NLP (TF-IDF + cosine similarity)    |
+| Pandas                | Data handling                       |
 
 ---
 
+## 📌 Features
 
-## ✅ Deployment Instructions
+- ✅ **Smart NLP Chatbot** for internship-related FAQs  
+- ✅ **Content-Based Filtering** to recommend internship domains  
+- ✅ **Beginner-Friendly Advice** (recommends MITS internship if no experience)  
+- ✅ Clean, tab-based **Gradio UI** (mobile & desktop-friendly)  
+- ✅ 100% Built in Google Colab (easy to run)
 
-1. Open the `.ipynb` file in Google Colab
-2. Run all cells
-3. Click the Gradio link to start chatting
-4. Ask anything related to your internship or career
+---
+
+## 📂 Files Included
+
+| File | Description |
+|------|-------------|
+| `MITS_AI_Virtual_Internship_Assistant.ipynb` | The complete working notebook for both chatbot & recommender |
+| `README.md` | This documentation file |
+
+---
+
+## 💬 Sample Use Cases
+
+### FAQ Bot
+> **Question:** How to submit my project?  
+> **Answer:** Use the official Google Form shared by MITS coordinators.
+
+### Recommender
+> **Input:**  
+> Interests: AI  
+> Skills: Python, Pandas  
+> Experience: none  
+> **Output:**  
+> 📢 You seem new to project work. We recommend starting with a **MITS Virtual Internship** to gain experience and discover your strengths.
+
+---
+
+## 🔧 How to Run
+
+1. Open the `.ipynb` file in Google Colab  
+2. Run all cells  
+3. Interact with the chatbot and recommender via the provided Gradio links
+
+---
+
+## 🏷️ Tags
+
+`#MITS` `#VirtualInternship` `#AI` `#Chatbot` `#RecommendationSystem` `#Gradio` `#Python`
+
+---
+
+## 🙌 Credits
+
+Developed by **Cristein Roger**  
+As part of the **MITS Medium-Level Internship Project**  
+Domain: **Artificial Intelligence**  
+Mentored by the MITS Coordination Team
+
+---
+
+## 🏁 Ready for Submission ✅
+
+This single tool delivers both chatbot and domain guidance as per the official MITS project requirements.  
+Built to be integrated into the **MITS internship website** or showcased via GitHub & LinkedIn.
 
